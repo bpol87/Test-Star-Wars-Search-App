@@ -23,9 +23,14 @@ img {
     align-items: center;
 }
 
-#search-input {
+#section {
+    margin: 10px;
+}
+
+#films-drop {
     display: none;
 }
-#search-btn {
+
+#people-drop {
     display: none;
 }

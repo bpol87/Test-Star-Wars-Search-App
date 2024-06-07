@@ -14,8 +14,9 @@
     </header>
     <main>
         <div id="search-bar">
-            <label for="section">Select an Area of the Star Wars Universe</label>
+            <label for="section">Select an Area of the Star Wars Universe and enter search term:</label>
             <select name="section" id="section">
+                <option value="default">Select option...</option>
                 <option value="films">Films</option>
                 <option value="people">People</option>
                 <option value="planets">Planets</option>
@@ -26,7 +27,30 @@
             <input id="search-input"></input>
             <button id="search-btn" type="submit" required>Search</button>
         </div>
+        <div id="info-details">
+            <div id="films-drop">
+                <h3 id="title"></h3>
+                <p id="epnum"><strong></strong></p>
+                <p id="director"></p>
+                <p id="producer"></p>
+                <p id="release"></p>
+                <p id="crawl"></p>
+                <p id="created"></p>
+                <p id="edited"></p>
+            </div>
+            <div id="people-drop">
+                <h3 id="name">Character:</h3>
+                <p id="epnum"><strong>Episode #:</strong></p>
+                <p>Director:</p>
+                <p id="producer">Producer:</p>
+                <p id="release">Release Date:</p>
+                <p id="url">Film URL:</p>
+                <p id="crawl">Film Opening Crawl:</p>
+                <p id="created">${data.created}</p>
+                <p id="edited">${data.edited}</p>
+            </div>
+        </div>
     </main>
-	<script src="script.js"></script>
+	<script src="/script.js"></script>
   </body>
 </html>
