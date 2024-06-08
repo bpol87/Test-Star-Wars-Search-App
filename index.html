@@ -27,6 +27,7 @@
             <input id="search-input"></input>
             <button id="search-btn" type="submit" required>Search</button>
         </div>
+        <div id="info-container">
         <div id="info-details">
             <div id="films-drop">
                 <h3 id="title"></h3>
@@ -39,7 +40,32 @@
                 <p id="edited"></p>
             </div>
             <div id="people-drop">
-                <h3 id="name">Character:</h3>
+                <h3 id="charname"></h3>
+                <p id="birth"></p>
+                <p id="gender"></p>
+                <p id="eye"></p>
+                <p id="hair"></p>
+                <p id="height"></p>
+                <p id="weight"></p>
+                <p id="skin"></p>
+                <p id="created"></p>
+                <p id="edited"></p>
+            </div>
+            <div id="planets-drop">
+                <h3 id="plname"></h3>
+                <p id="diameter"></p>
+                <p id="rotation"></p>
+                <p id="orbital"></p>
+                <p id="gravity"></p>
+                <p id="population"></p>
+                <p id="climate"></p>
+                <p id="terrain"></p>
+                <p id="water"></p>
+                <p id="created"></p>
+                <p id="edited"></p>
+            </div>
+            <div id="species-drop">
+                <h3 id="spname">Character:</h3>
                 <p id="epnum"><strong>Episode #:</strong></p>
                 <p>Director:</p>
                 <p id="producer">Producer:</p>
@@ -49,6 +75,29 @@
                 <p id="created">${data.created}</p>
                 <p id="edited">${data.edited}</p>
             </div>
+            <div id="starships-drop">
+                <h3 id="shname">Character:</h3>
+                <p id="epnum"><strong>Episode #:</strong></p>
+                <p>Director:</p>
+                <p id="producer">Producer:</p>
+                <p id="release">Release Date:</p>
+                <p id="url">Film URL:</p>
+                <p id="crawl">Film Opening Crawl:</p>
+                <p id="created">${data.created}</p>
+                <p id="edited">${data.edited}</p>
+            </div>
+            <div id="vehicles-drop">
+                <h3 id="vename">Character:</h3>
+                <p id="epnum"><strong>Episode #:</strong></p>
+                <p>Director:</p>
+                <p id="producer">Producer:</p>
+                <p id="release">Release Date:</p>
+                <p id="url">Film URL:</p>
+                <p id="crawl">Film Opening Crawl:</p>
+                <p id="created">${data.created}</p>
+                <p id="edited">${data.edited}</p>
+            </div>
+        </div>
         </div>
     </main>
 	<script src="/script.js"></script>
