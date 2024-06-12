@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML 5 Boilerplate</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header>
+        <div id="logo"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Star_Wars_Logo.svg/1024px-Star_Wars_Logo.svg.png" /></div>
+        <h1>Star Wars Universe <br>Search App</h1>
+    </header>
+    <main>
+        <div id="search-bar">
+            <label for="section">Select an Area of the Star Wars Universe:</label>
+            <select name="section" id="section">
+                <option value="default">Select option...</option>
+                <option value="films">Films</option>
+                <option value="people">People</option>
+                <option value="planets">Planets</option>
+                <option value="species">Species</option>
+                <option value="starships">Starships</option>
+            </select>
+            <div>
+              <button id="search-btn" type="submit" required>Search</button>
+              <button id="clear-btn" type="submit" required>Clear</button>
+            </div>
+        </div>
+        <div id="infowrapper">
+            <h2 id="info-title"></h2>
+        <div id="info-container"></div>
+        <button class="btn" id="load-more-btn">Load More</button>
+        </div>
+    </main>
+	<script src="script.js"></script>
+  </body>
+</html>
